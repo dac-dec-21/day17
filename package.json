@@ -5,12 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "nodemon src/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.1.3",
-    "moment": "^2.29.1"
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.15"
   }
 }
